@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWiz</title>
+    <link rel="stylesheet" href="techwiz3.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <div class="inner-header container">
+            <div class="logo">
+                <img src="rsz_estudies_1-removebg-preview.png" alt="">
+            </div>
+            <nav>
+                <ul id="main-menu">
+                    <li><a ><div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="banner">
+
+    </div>
+    <div id="content" class="container">
+        <h1>Đây là Bảng điểm của bạn !</h1>
+    </div>
+    <div id="table">
+        <table>
+            <tr>
+                <th>Your Marks</th>
+                <th>Academic
+                    Progress</th>
+                <th>Study
+                    Resources</th>
+                <th>Revision
+                    Classes</th>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+        </table>
+    </div>
+
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function (){
+            if($(this).scrollTop()){
+                $('header').addClass('sticky');
+            }else {
+                $('header').removeClass('sticky');
+            }
+        });
+    });
+</script>
+</body>
+</html>
